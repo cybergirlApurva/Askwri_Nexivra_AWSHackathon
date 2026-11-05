@@ -1,0 +1,35 @@
+# Secrets and local config (shared out-of-band, never committed)
+.env
+.env.*
+!.env.example
+.aws/
+
+# Local data (downloaded corpus, shared by teammates)
+data/raw/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+data/radar.db
+.pytest_cache/
+logs/
+
+# Local research files (too large for git)
+WRI Data/
+
+# No need to display AskWRI's technincal docs and our expectation notes, and main Claude Code bulk done
+#  by Ali Aamir
+CLAUDE.md
+the-expectation.md
+AskWRI-technical-document.md
+AskWRI-vision-document.md
+
+eval/results/
